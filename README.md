@@ -1,9 +1,9 @@
 # Mancala
 CIS 1200 Final Game Project
-This project uses the following 4 main concepts to create an interactive, 2 player Mancala game. 
-===================
-=: Core Concepts :=
-===================
+
+This project uses the following 4 main concepts to create an interactive, two-player Mancala game. 
+
+Core Concepts: 
 1. 2D Arrays: a 2D array is necessary for modeling the state of the board.
 A standard Mancala board is 6 by 2 with an additional well on each side.
 To represent the board, I used a 2D array of integers (8 by 2) to store the current state of each
@@ -27,9 +27,8 @@ distributed after an end state was achieved, that the correct winner was identif
 board correctly, that a player's turn was only repeated when they reached the right condition, that invalid clicks on
 the board prevented changing the game state, and that there was proper encapsulation.
 
-=========================
-=: Overview of Classes :=
-=========================
+Overview of Classes: 
+
 The Mancala class models the internal game state by setting up the 2D array and the game's functionality. It also
 includes the undo, save, and resume methods as these methods require accessing data about the 2D array.
 
@@ -45,7 +44,6 @@ specific button is pressed, the corresponding method is called from the MancalaB
 Finally, the stone class simply contains the .png image file and includes a drawStone method so that stones can be
 drawn easily in the MancalaBoard.repaint() method.
 
-========================
-=: External Resources :=
-========================
+External Resources:
+
 Stone Image: https://www.pngegg.com/en/png-bfkcp
