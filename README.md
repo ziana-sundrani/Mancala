@@ -44,6 +44,8 @@ specific button is pressed, the corresponding method is called from the MancalaB
 Finally, the stone class simply contains the .png image file and includes a drawStone method so that stones can be
 drawn easily in the MancalaBoard.repaint() method.
 
+To play the game run the RunGame class. 
+
 External Resources:
 
 Stone Image: https://www.pngegg.com/en/png-bfkcp
