@@ -1,5 +1,4 @@
 # Mancala
-CIS 1200 Final Game Project
 
 This project uses the following 4 main concepts to create an interactive, two-player Mancala game. 
 
